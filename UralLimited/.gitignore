@@ -4,3 +4,4 @@ appsettings.json
 *.db
 .DS_Store
 *.png
+wwwroot/images
