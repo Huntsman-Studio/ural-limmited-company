@@ -1,4 +1,33 @@
 ﻿/* Font Family */
 body{
   font-family: "Spartan";
+  margin: 0;
+  background-color: #e6ebf0;
+}
+
+/* Navbar */
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Nav Items */
+.nav-items{
+  list-style-type: none;
+}
+
+/* Nav Item */
+.nav-item{
+  float: left;
+  /* padding: 0px 12px 0px 12px; */
+  padding-right: 24px;
+}
+
+/* Nav Item Link*/
+.nav-item a{
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
 }
