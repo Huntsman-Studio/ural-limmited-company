@@ -37,3 +37,19 @@ div.brand{
   display: flex;
   justify-content: center;
 }
+
+/* Logo */
+img#logo{
+  width: 400px;
+  margin-top: 94px;
+  margin-bottom: 32px;
+}
+
+/* footer */
+.footer-bar{
+  position: fixed;
+  text-align: center;
+  left: 0;
+  bottom: 10px;
+  width: 100%;
+}
