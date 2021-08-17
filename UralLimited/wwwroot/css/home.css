@@ -1,0 +1,14 @@
+/* Partners text */
+p{
+    padding-left: 16px;
+}
+
+/* Partners bar */
+div.partners-bar{
+    display: grid;
+    grid-template-rows: max-content max-content max-content max-content;
+    grid-auto-columns: 25% 25% 25% 25%;
+    width: 100%;
+    margin: auto;
+    grid-template-areas: "head head head head";
+}
