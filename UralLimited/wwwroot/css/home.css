@@ -14,7 +14,7 @@ div.partners-bar{
 }
 
 /* AgriExport */
-#agriexport{
+#agriexport-btn{
     text-align: center;
     grid-area: agriexport;
     background-color: transparent;
@@ -22,7 +22,7 @@ div.partners-bar{
 }
 
 /* GB */
-#gb{
+#gb-btn{
     text-align: center;
     grid-area: gb;
     background-color: #b0b0b0;
@@ -30,7 +30,7 @@ div.partners-bar{
 }
 
 /* La Leonessa */
-#laleonessa{
+#laleonessa-btn{
     text-align: center;
     grid-area: laleonessa;
     background-color: #b9b9b9;
@@ -38,9 +38,33 @@ div.partners-bar{
 }
 
 /* OmniGear */
-#omnigear{
+#omnigear-btn{
     text-align: center;
     grid-area: omnigear;
     background-color: #b0b0b0;
     cursor: pointer;
+}
+
+/* AgriExport Banner */
+.agriexport{
+    background-image: url("../images/Traktor.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+/* Content */
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f8f8f8;
+    padding: 200px 0px 200px 0px;
+}
+
+/* Content H1 */
+.content h1{
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 1px;
 }
