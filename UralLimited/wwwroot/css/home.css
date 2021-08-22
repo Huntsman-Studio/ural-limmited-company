@@ -1,5 +1,5 @@
 /* Partners text */
-p{
+#part{
     padding-left: 16px;
 }
 
@@ -10,5 +10,37 @@ div.partners-bar{
     grid-auto-columns: 25% 25% 25% 25%;
     width: 100%;
     margin: auto;
-    grid-template-areas: "head head head head";
+    grid-template-areas: "head head head head" "agriexport gb laleonessa omnigear";
+}
+
+/* AgriExport */
+#agriexport{
+    text-align: center;
+    grid-area: agriexport;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+/* GB */
+#gb{
+    text-align: center;
+    grid-area: gb;
+    background-color: #b0b0b0;
+    cursor: pointer;
+}
+
+/* La Leonessa */
+#laleonessa{
+    text-align: center;
+    grid-area: laleonessa;
+    background-color: #b9b9b9;
+    cursor: pointer;
+}
+
+/* OmniGear */
+#omnigear{
+    text-align: center;
+    grid-area: omnigear;
+    background-color: #b0b0b0;
+    cursor: pointer;
 }
