@@ -1,4 +1,10 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿$(document).ready(function() {
+    var lightgrey = "#b0b0b0";
+    var grey = "#b9b9b9";
+    var trans = "transparent";
 
-// Write your JavaScript code.
+    // On click agriexport
+    $("#agriexport-btn").click( function() {
+        $("#agriexport").show();
+    });
+});
