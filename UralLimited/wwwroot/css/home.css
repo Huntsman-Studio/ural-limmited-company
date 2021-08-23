@@ -10,38 +10,55 @@ div.partners-bar{
     grid-auto-columns: 25% 25% 25% 25%;
     width: 100%;
     margin: auto;
+    height: 80px;
     grid-template-areas: "head head head head" "agriexport gb laleonessa omnigear";
 }
 
 /* AgriExport */
 #agriexport-btn{
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: agriexport;
     background-color: transparent;
+    height: 80px;
     cursor: pointer;
 }
 
 /* GB */
 #gb-btn{
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: gb;
     background-color: #b0b0b0;
+    height: 80px;
     cursor: pointer;
 }
 
 /* La Leonessa */
 #laleonessa-btn{
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: laleonessa;
     background-color: #b9b9b9;
+    height: 80px;
     cursor: pointer;
 }
 
 /* OmniGear */
 #omnigear-btn{
-    text-align: center;
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     grid-area: omnigear;
     background-color: #b0b0b0;
+    height: 80px;
     cursor: pointer;
 }
 
@@ -67,4 +84,13 @@ div.partners-bar{
     font-size: 64px;
     font-weight: 700;
     line-height: 1px;
+}
+
+/* Partners Images */
+.partners-img{
+    filter: grayscale(100%);
+}
+
+.partners-img.active{
+    filter: grayscale(0%) !important;
 }
