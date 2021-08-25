@@ -70,6 +70,10 @@ div.partners-bar{
     background-size: 100%;
 }
 
+div#gb{
+    display: none;
+}
+
 /* Content */
 .content{
     display: flex;

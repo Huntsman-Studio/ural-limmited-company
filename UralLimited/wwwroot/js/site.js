@@ -5,6 +5,13 @@
 
     // On click agriexport
     $("#agriexport-btn").click( function() {
+        $("#gb").hide();
         $("#agriexport").show();
+    });
+
+    // Gearboxes
+    $("#gb-btn").click( function() {
+        $("#gb").show();
+        $("#agriexport").hide();
     });
 });
